@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta "Luz de Lima" - Colores Base -->
+    <color name="blue_primary">#2563EB</color>
+    <color name="blue_primary_dark">#1D4ED8</color>
+    <color name="amber_secondary">#F59E0B</color>
+
+    <!-- Colores para modo claro -->
+    <color name="light_background">#F8FAFC</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_text_primary">#0F172A</color>
+    <color name="light_text_secondary">#64748B</color>
+    <color name="light_on_primary">#FFFFFF</color>
+
+    <!-- Colores para modo oscuro -->
+    <color name="dark_background">#020617</color>
+    <color name="dark_surface">#1E293B</color>
+    <color name="dark_text_primary">#F1F5F9</color>
+    <color name="dark_text_secondary">#94A3B8</color>
+    <color name="dark_on_primary">#FFFFFF</color>
+
+    <!-- Semánticos y UI -->
+    <color name="color_error">#EF4444</color>
+    <color name="color_button_alt">#FCFDFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

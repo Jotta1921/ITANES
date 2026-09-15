@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ITANES</string>
+    <string name="tour_name">LIMA</string>
+    <string name="course_text">Trabajo Final - Desarrollo de Aplicaciones Móviles</string>
+    <string name="places_count">5 puntos turísticos</string>
+    <string name="button_explore">Explorar recorrido</string>
+    <string name="title_places">Lugares del recorrido</string>
+    <string name="places_subtitle">5 lugares para descubrir</string>
+
+    <!-- Place Detail Strings -->
+    <string name="label_address">Dirección:</string>
+    <string name="label_coordinates">Coordenadas:</string>
+    <string name="button_favorite">♡ Guardar en favoritos</string>
+    <string name="button_unfavorite">♥ Quitar de favoritos</string>
+    <string name="button_share">Compartir</string>
+    <string name="button_map">Ver en mapa</string>
+    <string name="button_directions">Cómo llegar</string>
+    <string name="error_place_not_found">No se pudo encontrar la información del lugar.</string>
+    <string name="error_invalid_location">No hay una ubicación válida disponible para este lugar.</string>
+    <string name="error_no_maps_app">No se encontró una aplicación de mapas compatible.</string>
+
+    <!-- Share Strings -->
+    <string name="share_chooser_title">Compartir lugar con...</string>
+    <string name="share_footer">Compartido desde %1$s.</string>
+    <string name="error_share_not_available">No hay aplicaciones disponibles para compartir.</string>
+
+    <!-- Map Strings -->
+    <string name="title_map">Ubicación en Mapa</string>
+    <string name="error_invalid_coordinates">Las coordenadas del lugar no son válidas.</string>
+    <string name="content_description_back">Volver a la pantalla anterior</string>
+    <string name="zoom_in">Acercar mapa</string>
+    <string name="zoom_out">Alejar mapa</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_places">Lugares</string>
+    <string name="nav_favorites">Favoritos</string>
+
+    <!-- Favorites Screen -->
+    <string name="title_favorites">Mis Favoritos</string>
+    <string name="empty_favorites_title">Aún no tienes lugares favoritos</string>
+    <string name="empty_favorites_subtitle">Guarda lugares para encontrarlos rápidamente aquí</string>
+
+    <!-- Loading and Empty States -->
+    <string name="loading_places">Cargando lugares...</string>
+    <string name="empty_places_title">No hay lugares disponibles</string>
+    <string name="empty_places_subtitle">Intenta nuevamente cuando tengas conexión a Internet.</string>
+
+    <!-- Error Messages -->
+    <string name="error_offline">Sin conexión. Mostrando datos guardados.</string>
+    <string name="error_load_place">No se pudo cargar la información del lugar.</string>
+    <string name="error_no_navigation_app">No se encontró una aplicación compatible para abrir la ruta.</string>
+    <string name="error_share_failed">No se encontró una aplicación para compartir.</string>
+</resources>
