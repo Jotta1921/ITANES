@@ -92,17 +92,33 @@
             android:textColor="?attr/colorOnSurface"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/buttonExplore"
+            app:layout_constraintBottom_toTopOf="@+id/textLimaBiography"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textCourse" />
+
+        <TextView
+            android:id="@+id/textLimaBiography"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/lima_biography"
+            android:textAlignment="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="?attr/colorOnSurface"
+            android:alpha="0.9"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonExplore"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPlacesCount" />
 
         <Button
             android:id="@+id/buttonExplore"
             style="@style/Widget.Material3.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="64dp"
+            android:layout_marginTop="24dp"
             android:minHeight="64dp"
             android:minWidth="300dp"
             android:paddingStart="48dp"
@@ -114,7 +130,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textPlacesCount" />
+            app:layout_constraintTop_toBottomOf="@+id/textLimaBiography" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

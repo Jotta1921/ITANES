@@ -3,6 +3,7 @@
     <string name="tour_name">LIMA</string>
     <string name="course_text">Trabajo Final - Desarrollo de Aplicaciones Móviles</string>
     <string name="places_count">5 puntos turísticos</string>
+    <string name="lima_biography">Lima, la Ciudad de los Reyes: un encuentro mágico entre historia ancestral, modernidad y el mejor sabor de América.</string>
     <string name="button_explore">Explorar recorrido</string>
     <string name="title_places">Lugares del recorrido</string>
     <string name="places_subtitle">5 lugares para descubrir</string>

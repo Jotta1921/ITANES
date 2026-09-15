@@ -114,12 +114,28 @@
 
             </com.google.android.material.card.MaterialCardView>
 
+            <TextView
+                android:id="@+id/textLimaBiography"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="32dp"
+                android:text="@string/lima_biography"
+                android:textAlignment="center"
+                android:lineSpacingExtra="2dp"
+                android:textColor="?attr/colorOnSurface"
+                android:alpha="0.9"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/placesBadge" />
+
             <Button
                 android:id="@+id/buttonExplore"
                 style="@style/Widget.Material3.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginHorizontal="48dp"
                 android:minHeight="60dp"
                 android:text="@string/button_explore"
@@ -127,7 +143,7 @@
                 app:cornerRadius="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/placesBadge" />
+                app:layout_constraintTop_toBottomOf="@+id/textLimaBiography" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
